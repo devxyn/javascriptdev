@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  height: 100vh;
+  background-color: rgb(207, 247, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+}
+
+.container h1 {
+  font-size: 5em;
+}
+
+.container h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.container h3 span {
+  font-weight: 400;
+}
+.container h3 a {
+  font-weight: 400;
+  color: black;
+  font-style: italic;
+}
