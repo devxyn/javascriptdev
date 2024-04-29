@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+
+  .accordion-header .accordion-button,
+  .accordion-collapse,
+  .collapse,
+  .show {
+    color: #ffffff;
+    background-color: #1a1a1a;
+  }
+}
